@@ -1,0 +1,127 @@
+@import '../utils/styles/breakpoints';
+
+.alt-title {
+	font-size: 150%;
+	color: #f5f8fa;
+}
+
+.alt-navbar-toggle {
+	width: 100%;
+	display: none;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	display: none;
+	background-color: #394b59;
+	padding-left: 3em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	padding-right: 0.5em;
+	span {
+		color: #f5f8fa;
+	}
+}
+
+.alt-navbar-right {
+	a {
+		text-decoration: none;
+		color: #f5f8fa;
+	}
+}
+
+@media screen and (max-width: $break-small) {
+	.alt-navbar-toggle {
+		display: flex;
+	}
+	.alt-navbar {
+		.alt-navbar-left {
+			display: none;
+		}
+		.alt-navbar-right {
+			float: none;
+			padding-left: 1em;
+			#logout {
+				float: right;
+			}
+		}
+	}
+	// .alt-navbar-right {
+	// 	display: flex;
+	// 	flex-direction: column;
+	// 	justify-content: center;
+	// }
+	// 	.bp3-navbar {
+	// 		padding: 0px;
+	// 	}
+	// 	.alt-navbar {
+	// 		margin: 0;
+	// 		max-width: $break-small;
+	// 		display: flex;
+	// 		flex-direction: column;
+	// 		.alt-navbar-left {
+	// 			display: flex;
+	// 			height: 50px;
+	// 			flex-wrap: nowrap;
+	// 			align-items: center;
+	// 			padding: 1rem;
+	// 			justify-content: space-between;
+	// 		}
+	// 		.alt-navbar-right {
+	// 			// margin-top: 0.5rem;
+	// 			flex-direction: column;
+	// 			.bp3-navbar-divider {
+	// 				display: none;
+	// 			}
+	// 			.alt-navbar-bg {
+	// 				margin-top: 5px;
+	// 				width: 100%;
+	// 				background-color: #394b59;
+	// 				text-align: left;
+	// 				button {
+	// 					width: 100%;
+	// 					margin: 3px;
+	// 					svg {
+	// 						display: none;
+	// 					}
+	// 					.bp3-button-text {
+	// 						font-size: 150%;
+	// 					}
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+}
+//
+// @media screen and (min-width: $break-small) and (max-width: $break-desktop) {
+// 	.alt-title {
+// 		margin-bottom: 20px !important;
+// 	}
+// 	.alt-navbar {
+// 		max-width: $break-desktop;
+// 		justify-content: space-between;
+// 		.alt-toggle {
+// 			display: none;
+// 		}
+// 		display: flex;
+// 		.alt-navbar-right {
+// 			.alt-navbar-bg {
+// 				display: flex !important;
+// 			}
+// 		}
+// 	}
+// }
+//
+// @media screen and (min-width: $break-desktop) {
+// 	.alt-navbar {
+// 		justify-content: space-between;
+// 		.alt-toggle {
+// 			display: none;
+// 		}
+// 		display: flex;
+// 		.alt-navbar-right {
+// 			.alt-navbar-bg {
+// 				display: flex !important;
+// 			}
+// 		}
+// 	}
+// }

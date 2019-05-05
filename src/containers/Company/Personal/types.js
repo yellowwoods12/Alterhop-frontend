@@ -1,0 +1,4 @@
+export const COMP_PROF = 'COMP_PROF'
+export const COMP_PROF_ERROR = 'COMP_PROF_ERROR'
+export const CLEAR_COMP_PROF_ERROR = 'CLEAR_COMP_PROF_ERROR'
+export const FETCH_PROF = 'FETCH_PROF'

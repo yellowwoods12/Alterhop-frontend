@@ -1,0 +1,39 @@
+// @import '../styles/breakpoints';
+//
+// .div-container {
+// 	// ultrawide width 1200px and up
+// 	display: flex;
+// 	flex-direction: column;
+// 	justify-content: center;
+// 	@media screen and (min-width: $break-xsmall) and (max-width: $break-small) {
+// 		max-width: $break-small;
+// 		margin-left: 13px;
+// 		margin-right: 13px;
+// 	}
+// 	@media screen and (min-width: $break-small) and (max-width: $break-desktop) {
+// 		max-width: $break-desktop;
+// 		margin-left: 109px;
+// 		margin-right: 109px;
+// 	}
+// 	@media screen and (min-width: $break-desktop) and (max-width: $break-large) {
+// 		max-width: $break-large;
+// 		margin-left: 325px;
+// 		margin-right: 325px;
+// 	}
+// 	@media screen and (min-width: $break-large) {
+// 		width: 550px;
+// 		margin-left: auto;
+// 		margin-right: auto;
+// 	}
+// }
+//
+// .bp3-tab-list {
+//   margin-top: 2rem !important;
+// }
+.alt-tab-container {
+	.bp3-tab-list {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+}
